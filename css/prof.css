@@ -277,8 +277,8 @@ footer {
     header h1 {
         font-size: 24px;
         text-align: center;
-        margin-top: 10px;
-        margin-right: 0;
+        margin-right: 20%;
+        margin-left: 12%;
     }
 
     header p {
@@ -318,15 +318,15 @@ footer {
 }
 
 /* Responsive media query for smaller screens */
-@media (max-width: 500px) {
+@media (max-width: 320px) {
     .container {
         padding: 5px;
     }
 
     header h1 {
         font-size: 20px;
-        margin-top: 8px;
-        margin-right: 0;
+        margin-top: 20%;
+        margin-right: 12%;
     }
 
     header p {
@@ -346,28 +346,46 @@ footer {
     }
 
     .header-text h3 {
-        font-size: 20px;
+        font-size: 10px;
         margin-top: 15px;
     }
-
+    .header-text h2 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
     .sub-title {
-        font-size: 36px;
+        font-size: 20px;
     }
 
     .about-page-col-1 img {
         height: 100%;
-        margin-left: 140px;
+        margin-left: 100px;
         border-radius: 0;
-    }
+                margin-top: 5px;
 
+    }
+.tab-titles p{
+    padding: 3px;
+    display: block;
+    font-size: 10px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.tab-contents.active-tab ul li {
+    font-size: 9px;
+    margin-right: 20px;  
+}
+.tab-contents.active-tab ul li span{
+    font-size: 9px;
+    margin-right: 20px;  
+}
     .about-page-col-2 {
         flex-basis: 100%;
-        margin-left: 100px;
+        margin-left: 60px;
     }
 
-    .sub-title {
-        font-size: 32px;
-    }
+  
 
     /* Responsive styles for the footer */
     footer {
@@ -375,7 +393,7 @@ footer {
     }
 
     .footer-container {
-        font-size: 14px;
+        font-size: 8px;
     }
 }
 
@@ -396,8 +414,8 @@ footer {
     header h1 {
         font-size: 24px;
         text-align: center;
-        margin-top: 10px;
-        margin-right: 0;
+        margin-top: 20%;
+        margin-right: 12%;
     }
 
     header p {
@@ -434,18 +452,25 @@ footer {
     .tab-contents ul li {
         font-size: 14px;
     }
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 8px;
+    }
 }
 
 /* Responsive media query for smaller screens */
-@media (max-width: 500px) {
+@media (max-width: 320px) {
     .container {
         padding: 5px;
     }
 
     header h1 {
         font-size: 20px;
-        margin-top: 8px;
-        margin-right: 0;
+        margin-top: 20%;
+        margin-right: 12%;
     }
 
     header p {
@@ -494,7 +519,7 @@ footer {
     }
 
     .footer-container {
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
@@ -570,8 +595,8 @@ nav a {
     header h1 {
         font-size: 24px;
         text-align: center;
-        margin-top: 10px;
-        margin-right: 0;
+        margin-top: 20%;
+        margin-right: 12%;
     }
 
     header p {
@@ -607,6 +632,13 @@ nav a {
 
     .tab-contents ul li {
         font-size: 14px;
+    }
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 8px;
     }
 }
 
@@ -706,6 +738,13 @@ nav a {
 
     .services .serv-content .card {
         width: calc(33% - 20px);
+    }
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 8px;
     }
 }
 
@@ -905,18 +944,50 @@ padding-bottom:2% ;
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
+    #projects-dropdown
+    {
+        font-size: 8px;
+    }
+    #projects-dropdown select{
+        height: 7px;
+    }
     .skills .skills-content {
         padding: 0 5%; /* Adjusted padding for responsiveness */
+        
     }
     .skills .column.left {
         padding-left: 0; /* Reset padding for responsiveness */
         text-align: center; /* Center text for responsiveness */
+        font-size: 8px;
     }
     .skills .column.left h2 {
         padding-left: 0; /* Reset padding for responsiveness */
+        font-size: 10px;
+
     }
     .skills .column.right {
-        margin-top: 20px; /* Add margin between columns for responsiveness */
+        font-size: 8px;
+
+    }
+    .skills .column.right span{
+        margin-top: 2px; /* Add margin between columns for responsiveness */
+        font-size: 8px;
+
+    }
+    .skills .title{
+        font-size: 18px;
+    }
+
+    .skills .column.left .text{
+        font-size: 12px;
+
+    }
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 8px;
     }
 }
 

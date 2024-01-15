@@ -149,9 +149,6 @@ main {
 
 
 /* contact section styling */
-.contact .title::after {
-    content: "get in touch";
-}
 
 .contact .contact-content {
     display: flex;
@@ -262,8 +259,6 @@ footer {
 
 
 
-
-/* Responsive media query for tablets */
 @media (max-width: 768px) {
     header {
         padding: 20px 10px;
@@ -278,8 +273,8 @@ footer {
     header h1 {
         font-size: 24px;
         text-align: center;
-        margin-top: 10px;
-        margin-right: 0;
+        margin-right: 20%;
+        margin-left: 12%;
     }
 
     header p {
@@ -319,15 +314,15 @@ footer {
 }
 
 /* Responsive media query for smaller screens */
-@media (max-width: 500px) {
+@media (max-width: 320px) {
     .container {
         padding: 5px;
     }
 
     header h1 {
         font-size: 20px;
-        margin-top: 8px;
-        margin-right: 0;
+        margin-top: 20%;
+        margin-right: 12%;
     }
 
     header p {
@@ -347,28 +342,46 @@ footer {
     }
 
     .header-text h3 {
-        font-size: 20px;
+        font-size: 10px;
         margin-top: 15px;
     }
-
+    .header-text h2 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
     .sub-title {
-        font-size: 36px;
+        font-size: 20px;
     }
 
     .about-page-col-1 img {
         height: 100%;
-        margin-left: 140px;
+        margin-left: 100px;
         border-radius: 0;
-    }
+                margin-top: 5px;
 
+    }
+.tab-titles p{
+    padding: 3px;
+    display: block;
+    font-size: 10px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.tab-contents.active-tab ul li {
+    font-size: 9px;
+    margin-right: 20px;  
+}
+.tab-contents.active-tab ul li span{
+    font-size: 9px;
+    margin-right: 20px;  
+}
     .about-page-col-2 {
         flex-basis: 100%;
-        margin-left: 100px;
+        margin-left: 60px;
     }
 
-    .sub-title {
-        font-size: 32px;
-    }
+  
 
     /* Responsive styles for the footer */
     footer {
@@ -376,7 +389,7 @@ footer {
     }
 
     .footer-container {
-        font-size: 14px;
+        font-size: 8px;
     }
 }
 
@@ -397,8 +410,8 @@ footer {
     header h1 {
         font-size: 24px;
         text-align: center;
-        margin-top: 10px;
-        margin-right: 0;
+        margin-top: 20%;
+        margin-right: 12%;
     }
 
     header p {
@@ -435,18 +448,25 @@ footer {
     .tab-contents ul li {
         font-size: 14px;
     }
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 8px;
+    }
 }
 
 /* Responsive media query for smaller screens */
-@media (max-width: 500px) {
+@media (max-width: 320px) {
     .container {
         padding: 5px;
     }
 
     header h1 {
         font-size: 20px;
-        margin-top: 8px;
-        margin-right: 0;
+        margin-top: 20%;
+        margin-right: 12%;
     }
 
     header p {
@@ -495,7 +515,7 @@ footer {
     }
 
     .footer-container {
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 /* Add a media query for mobile devices */
@@ -520,7 +540,10 @@ footer {
         width: 100%; /* Set the column width to 100% for smaller screens */
         margin: 0; /* Remove margin for smaller screens */
     }
-
+    
+    .title {
+text-align: center;    }
+    
     .fields {
         flex-direction: column; /* Adjust field layout for smaller screens */
     }
@@ -530,10 +553,14 @@ footer {
     }
 
     .textarea textarea {
-        height: 150px; /* Adjust textarea height for smaller screens */
+        height: 10px; /* Adjust textarea height for smaller screens */
     }
 
     footer {
-        padding: 15px 5%; /* Adjust footer padding for smaller screens */
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 8px;
     }
 }
