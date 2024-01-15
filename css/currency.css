@@ -226,6 +226,14 @@ footer {
         width: 100%;
         margin-bottom: 35px;
     }
+        /* Responsive styles for the footer */
+        footer {
+            padding: 10px 0;
+        }
+        
+        .footer-container {
+            font-size: 14px;
+        }
 }
 
 @media (max-width: 690px) {
@@ -244,6 +252,14 @@ footer {
     .services .serv-content .card{
         width: 100%;
     }
+        /* Responsive styles for the footer */
+        footer {
+            padding: 10px 0;
+        }
+        
+        .footer-container {
+            font-size: 14px;
+        }
 }
 
 @media (max-width: 500px) {
@@ -288,7 +304,14 @@ footer {
     header p {
         font-size: 12px;
     }
-
+    /* Responsive styles for the footer */
+    footer {
+        padding: 10px 0;
+    }
+    
+    .footer-container {
+        font-size: 14px;
+    }
 }
 
 
@@ -400,6 +423,14 @@ nav a {
     .tab-contents ul li {
         font-size: 14px;
     }
+        /* Responsive styles for the footer */
+        footer {
+            padding: 10px 0;
+        }
+        
+        .footer-container {
+            font-size: 14px;
+        }
 }
 
 /* Responsive media query for smaller screens */
@@ -589,3 +620,281 @@ button {
     }
   }
   
+/* Responsive media query for tablets */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-right: 20%;
+        margin-left: 12%;
+    }
+
+    header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 10px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .header-text h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .sub-title {
+        font-size: 40px;
+    }
+
+    .tab-links {
+        font-size: 16px;
+    }
+
+    .tab-contents ul li {
+        font-size: 14px;
+    }
+}
+
+/* Responsive media query for smaller screens */
+@media (max-width: 320px) {
+    .container {
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 20px;
+        margin-top: 20%;
+        margin-right: 12%;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    nav ul {
+        padding: 5px 0;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .header-text h3 {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .header-text h2 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .sub-title {
+        font-size: 20px;
+    }
+
+    .about-page-col-1 img {
+        height: 100%;
+        margin-left: 100px;
+        border-radius: 0;
+                margin-top: 5px;
+
+    }
+.tab-titles p{
+    padding: 3px;
+    display: block;
+    font-size: 10px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.tab-contents.active-tab ul li {
+    font-size: 9px;
+    margin-right: 20px;  
+}
+.tab-contents.active-tab ul li span{
+    font-size: 9px;
+    margin-right: 20px;  
+}
+    .about-page-col-2 {
+        flex-basis: 100%;
+        margin-left: 60px;
+    }
+
+  
+
+    /* Responsive styles for the footer */
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 14px;
+    }
+}
+
+
+
+/* Responsive media query for tablets */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20%;
+        margin-right: 12%;
+    }
+
+    header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 10px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .header-text h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .sub-title {
+        font-size: 40px;
+    }
+
+    .tab-links {
+        font-size: 16px;
+    }
+
+    .tab-contents ul li {
+        font-size: 14px;
+    }
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 14px;
+    }
+}
+
+/* Responsive media query for smaller screens */
+@media (max-width: 320px) {
+    .container {
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 20px;
+        margin-top: 20%;
+        margin-right: 12%;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    nav ul {
+        padding: 5px 0;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .header-text h3 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .sub-title {
+        font-size: 36px;
+    }
+
+    .about-col-1 img {
+        height: 100%;
+        margin-left: 100px;
+        border-radius: 0;
+    }
+
+    .about-col-2 {
+        flex-basis: 100%;
+        margin-left: 100px;
+    }
+
+    .sub-title {
+        font-size: 32px;
+    }
+
+    /* Responsive styles for the footer */
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .services .title {
+        padding-bottom: 2%;
+    }
+
+    .services .serv-content .card {
+        width: calc(33% - 20px);
+    }
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 14px;
+    }
+}

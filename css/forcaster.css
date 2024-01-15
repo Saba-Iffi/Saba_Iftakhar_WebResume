@@ -396,3 +396,21 @@ button:hover {
     margin-top: 10px;
 }
 
+
+
+@media screen and (min-width: 768px) {
+    .services .title {
+        padding-bottom: 2%;
+    }
+
+    .services .serv-content .card {
+        width: calc(33% - 20px);
+    }
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-container {
+        font-size: 14px;
+    }
+}
